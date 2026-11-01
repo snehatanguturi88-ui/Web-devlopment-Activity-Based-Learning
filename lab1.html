@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+<header>
+    <h1>Travel Booking System</h1>
+    <nav>
+        <a href="lab1.html">Home</a>
+        <a href="lab2.html">Passenger</a>
+        <a href="lab3.html">Services</a>
+        <a href="lab4.html">Seats</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Book Your Journey</h2>
+
+    <form action="passenger.html">
+
+        <label>From:</label>
+        <input type="text" placeholder="Enter Source City" required>
+
+        <label>To:</label>
+        <input type="text" placeholder="Enter Destination City" required>
+
+        <label>Travel Date:</label>
+        <input type="date" required>
+
+        <label>Travel Type:</label>
+        <select>
+            <option>Bus</option>
+            <option>Train</option>
+        </select>
+
+        <label>Passengers:</label>
+        <input type="number" min="1" max="6" value="1">
+
+        <button type="submit">Search Tickets</button>
+
+    </form>
+</div>
+
+</body>
+</html>
